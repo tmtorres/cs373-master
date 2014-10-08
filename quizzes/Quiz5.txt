@@ -1,0 +1,22 @@
+--
+CS373: Quiz #5 (10 pts) <Mukund>
+--
+
+--------------------------------------------------------------------------
+ 1. In Java, Stack is a subclass of Vector.
+    What's wrong with that?
+    What would be better?
+    (6 pts)
+--
+
+Stack exhibits unwanted Vector interface
+containment
+
+--------------------------------------------------------------------------
+ 2. Java has delegation through inheritance.
+    JavaScript has delegation through containment (prototypes).
+    What's the advantage of JavaScript's way?
+    (3 pts)
+--
+
+you can change prototypes, you can't change inheritance at runtime

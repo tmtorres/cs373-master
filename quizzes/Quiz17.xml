@@ -1,0 +1,52 @@
+<!--
+CS373: Quiz #17 (10 pts) [Mukund]
+-->
+
+<!--
+ 1. Fill in the blank below.
+    [The Dependency Inversion Principle]
+    (2 pts)
+
+    High level modules should not depend upon low level modules. Both
+    should depend on <BLANK>.
+
+abstractions
+-->
+
+<!--
+ 2. Define a valid DTD schema for the following XML.
+    (7 pts)
+-->
+
+<!DOCTYPE Bookstore [
+   <!ELEMENT Bookstore  (Book*, Author*)>
+   <!ELEMENT Book       (Title)>
+   <!ELEMENT Title      (#PCDATA)>
+   <!ELEMENT Author     (First_Name, Last_Name)>
+   <!ELEMENT First_Name (#PCDATA)>
+   <!ELEMENT Last_Name  (#PCDATA)>
+
+   <!ATTLIST Book   Author_IDREFS IDREFS #REQUIRED>
+   <!ATTLIST Author Author_ID     ID     #REQUIRED>
+]>
+
+<Bookstore>
+   <Book Author_IDREFS="JU JW">
+      <Title>A First Course in Database Systems</Title>
+   </Book>
+   <Book Author_IDREFS="HG JU JW">
+      <Title>Database Systems: The Complete Book</Title>
+   </Book>
+   <Author Author_ID="HG">
+      <First_Name>Hector</First_Name>
+      <Last_Name>Garcia-Molina</Last_Name>
+   </Author>
+   <Author Author_ID="JU">
+      <First_Name>Jeffrey</First_Name>
+      <Last_Name>Ullman</Last_Name>
+   </Author>
+   <Author Author_ID="JW">
+      <First_Name>Jennifer</First_Name>
+      <Last_Name>Widom</Last_Name>
+   </Author>
+</Bookstore>

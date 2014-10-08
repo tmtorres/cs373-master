@@ -1,0 +1,39 @@
+--
+CS373: Quiz #6 (10 pts) <Raul>
+--
+
+--------------------------------------------------------------------------
+ 1. Which of the following practices demonstrates effective pair
+    programming?
+    [All I Really Needed to Know about Pair Programming I Learned in
+     Kindergarten]
+    (3 pts)
+
+a. Each partner writing separate parts.
+b. Each partner writing both parts and then submitting the best.
+c. Each partner writing both parts and then submitting the best
+   combination.
+d. Sharing a monitor and keyboard while coding.
+e. One partner writing the interface and tests, the other the
+   implementation.
+--
+
+d.
+
+--------------------------------------------------------------------------
+ 2. What is refactoring?
+    [XP: Ch. 11, Pg. 76]
+    (3 pts)
+--
+
+the process of improving the code's structure while preserving its
+function
+
+--------------------------------------------------------------------------
+ 3. In pair programming which of the partners should do most of the
+    driving?
+    [XP: Ch. 12, Pg. 90]
+    (3 pts)
+--
+
+the one who is least sure of what's being done

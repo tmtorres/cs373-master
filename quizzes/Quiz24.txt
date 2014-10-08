@@ -1,0 +1,14 @@
+--
+CS373: Quiz #24 (10 pts) <Raul>
+--
+
+--------------------------------------------------------------------------
+ 1. What was the name of Wed's speaker?
+    What was the name of his company?
+    What does his company do?
+    (9 pts)
+
+David Wahler
+Indeed
+job search
+--
